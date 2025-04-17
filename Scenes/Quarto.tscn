@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dfdhbrp7ydvn5"]
+
+[ext_resource type="PackedScene" uid="uid://dkk1h7oywj3v8" path="res://Renato.tscn" id="1_88ukg"]
+[ext_resource type="Texture2D" uid="uid://cr2n541akod08" path="res://Assets/Quarto.jpg" id="2_f4234"]
+[ext_resource type="PackedScene" uid="uid://0b01n0uls0q1" path="res://TrocarDeAmbiente.tscn" id="3_2yqnj"]
+
+[node name="QuartoRenato" type="Node2D"]
+
+[node name="Renato" parent="." instance=ExtResource("1_88ukg")]
+position = Vector2(172, 442)
+
+[node name="Quarto" type="Sprite2D" parent="."]
+position = Vector2(575.5, 326.5)
+scale = Vector2(1.87418, 2.09477)
+texture = ExtResource("2_f4234")
+
+[node name="TrocarDeAmbiente" parent="." instance=ExtResource("3_2yqnj")]
+position = Vector2(-1, 386)
+scale = Vector2(7.28, 25.6)
+
+[node name="TrocarDeAmbiente2" parent="." instance=ExtResource("3_2yqnj")]
+position = Vector2(1551, 2296)
+scale = Vector2(52.9984, 655.36)
+change_scene = "res://Scenes/Cozinha.tscn"

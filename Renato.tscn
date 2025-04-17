@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkk1h7oywj3v8"]
+
+[ext_resource type="Script" uid="uid://drm72ago232b3" path="res://Scripts/ScriptRenato.gd" id="1_g8i0g"]
+[ext_resource type="Texture2D" uid="uid://djion6dnbddt6" path="res://icon.svg" id="2_75t11"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yvgv7"]
+size = Vector2(88, 89)
+
+[node name="Renato" type="CharacterBody2D"]
+top_level = true
+script = ExtResource("1_g8i0g")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_75t11")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2.5)
+shape = SubResource("RectangleShape2D_yvgv7")

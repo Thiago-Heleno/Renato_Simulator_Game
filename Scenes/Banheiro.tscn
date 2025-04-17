@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bi6fny5qr8y7t"]
+
+[ext_resource type="PackedScene" uid="uid://dkk1h7oywj3v8" path="res://Renato.tscn" id="1_p38jt"]
+[ext_resource type="Texture2D" uid="uid://bovggwl0rnd34" path="res://Assets/BanheiroPixel.png" id="2_ggqhv"]
+[ext_resource type="PackedScene" uid="uid://0b01n0uls0q1" path="res://TrocarDeAmbiente.tscn" id="3_ggqhv"]
+
+[node name="Banheiro" type="CharacterBody2D"]
+
+[node name="Renato" parent="." instance=ExtResource("1_p38jt")]
+position = Vector2(110, 277)
+
+[node name="BanheiroPixel" type="Sprite2D" parent="."]
+position = Vector2(579, 331.5)
+scale = Vector2(1.11914, 0.641602)
+texture = ExtResource("2_ggqhv")
+
+[node name="TrocarDeAmbiente" parent="." instance=ExtResource("3_ggqhv")]
+position = Vector2(529, 254)
+scale = Vector2(1, 21.08)
+change_scene = "res://Scenes/Quarto.tscn"
