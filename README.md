@@ -66,3 +66,27 @@ O jogo é bastante linear. Siga as instruções e opções que aparecem na tela:
 ---
 
 Divirta-se acompanhando a jornada diária do Renato!
+
+#Overview de como sera o jogo:
+
+###Historia
+1. Levanta da cama
+2. Acorda de cueca
+3. Vai no banheiro cagar - Opcao de demorar ou cagar rapido (Se demorar alunos ficam bravos)
+4. Volta pro quarto
+5. Poe a roupa de bicheiro
+6. Vai pra cozinha
+7. Toma um cafezinho com torrada integral (pao pullman integral)
+8. Vai pra frente da casa
+9. Vai pro carro (generico vermelho)
+10. Pega a Dutra lotada
+11. Chega na faculdade
+12. Minigame - Escolher a vaga (nao eh pra funcionar)
+13. Vai pra sala de aula
+14. Alunos - Aparece um emoji bravo se ele demorar pra cagar
+15. Minigame dando Aula - Quiz 1 + 1 = ?
+16. Opcao de Terminar a aula mais cedo - Alunos ficam felizes
+17. Vai pro carro (esta no estacionamento)
+18. Pega a Dutra
+19. Chega em casa
+20. Dorme (Nem come, nem troca de roupa)
