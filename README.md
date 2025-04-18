@@ -67,9 +67,9 @@ O jogo é bastante linear. Siga as instruções e opções que aparecem na tela:
 
 Divirta-se acompanhando a jornada diária do Renato!
 
-#Overview de como sera o jogo:
+# Overview de como sera o jogo:
 
-###Historia
+### Historia
 1. Levanta da cama
 2. Acorda de cueca
 3. Vai no banheiro cagar - Opcao de demorar ou cagar rapido (Se demorar alunos ficam bravos)
